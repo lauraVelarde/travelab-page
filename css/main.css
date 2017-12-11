@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/*styles for header*/
+.header{
+    background-color: #DAF7A6;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+
+.header h3{
+     display: inline-block;
+     float: left;
+}
+
+.nav-header li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    padding: 0 10px;
+}
+
+.nav-header li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.title-header{
+    font-family: 'Karla', sans-serif;
+    background-image: url('../assets/images/bora-bora.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: #F4D03F;
+    font-size: 3em;
+    text-align: center;
+}
+
+.title-header h1{
+    padding-top: 5%;
+}
+
+/*styles for introduction section*/
+.introduction{
+    text-align: center;
+}
+
+.introduction .colum{
+    display: inline-block;
+
+}
+.col-xs-9 {
+    width: 75%;
+}
+
+.col-xs-3 {
+    width: 25%;
+}
+
+
+.images img{
+    width: 300px;
+    height: 200px;
+}
